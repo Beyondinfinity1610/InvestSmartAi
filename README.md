@@ -25,7 +25,7 @@ Welcome to the **backend** of **InvestSmartAI** – an AI-powered stock market f
 - Stock price prediction using LSTM + XGBoost
 - Personalized investment recommendations
 
-### 📁 Directory Structure
+### 📁 Directory Structure(similar not same as used)(example)
 
 ```
 backend/
@@ -88,7 +88,7 @@ uvicorn main:app --reload
 
 Visit [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for Swagger UI.
 
-### 🧪 API Endpoints
+### 🧪 API Endpoints(examples not same name as used just for understanding)
 
 #### 📈 `/predict` (POST)
 
@@ -124,13 +124,28 @@ Returns:
 - RMSE
 - Accuracy of stock prediction model
 
+
+#### 📊 `/fetch-live-data` (POST)
+
+Returns:
+- live data in metioned range(fixed for requirment)
+  
+- added to data set
+
+#### 📊 `/TRACK ACCURACY` (GET)
+
+Returns:
+- live data in metioned range(fixed for requirment)
+- compares with recently predicted data preventing misleads and future scope for re calibrating the model
+ 
+
 ### 🧠 Model Overview
 
 | Model               | Type             | Description                                         |
 |---------------------|------------------|-----------------------------------------------------|
 | `stock_predictor`   | LSTM + XGBoost   | Hybrid model using prices + sentiment               |
-| `sentiment_model`   | FinBERT + LSTM   | Analyzes news and forecasts future sentiment        |
-| `finance_model`     | Rule-Based       | Gives suggestions based on your finances            |
+| `sentiment_model`   | FinBERT + LSTM   | Analyzes news and forecasts future sentiment (experimental       |
+
 
 ### 🛎️ Workflow Summary
 
@@ -142,7 +157,7 @@ Returns:
 6. Outputs saved in `data/predictions.json`.
 7. APIs deliver data to frontend.
 
-### ❗Deployment Tips
+### ❗Deployment Tips(idealogy)
 
 - Use Docker + Gunicorn + Nginx for production.
 - Store large models externally (e.g., GDrive/S3).
@@ -152,7 +167,7 @@ Returns:
 ### 📬 Contact
 
 For questions or contributions:
-- 📧 thejus@example.com *(replace with actual contact)*
+- 📧 thejeshwaarsathishkumar@gmail.com *(replace with actual contact)*
 - 🧠 Team: **Market la Yaaru Mass?**
 
 ---
