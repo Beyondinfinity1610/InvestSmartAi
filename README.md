@@ -364,12 +364,3 @@ For questions or contributions:
 - 🧠 Team Name: Market la Yaaru Mass?
 
 ---
-
-This README provides a clear overview of your frontend project while being concise and informative for developers exploring your repository on GitHub!
-
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1743770435/user_uploads/lvmyJabZYupMRQU/image.jpg
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/59293453/96b296af-e124-4280-877b-263b6a674779/paste-2.txt
-
----
-Answer from Perplexity: https://www.perplexity.ai/search/i-am-coding-an-ai-powered-inve-3u9u4yhtRzSdfwH7pshKYg?8=r&utm_source=copy_output
